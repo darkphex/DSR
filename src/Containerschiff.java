@@ -71,7 +71,7 @@ public class Containerschiff {
         return geloeschteContainer;
     }
     public double getLaengeInMeter() {
-        return schiffslaenge * 0.3048 // 1 nautischer Fuß entspricht 0.3048 Metern
+        return schiffslaenge * 0.3048; // 1 nautischer Fuß entspricht 0.3048 Metern
     }
     public String toString() {
         return "Taufname " + this.taufname + " belegte Stellplaetze " + this.belegeteStellplaetze + " von " + this.maxStellplaetze;
